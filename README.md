@@ -1,12 +1,47 @@
-# React + Vite
+# 📝 Personal Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **task management web app** built with **React** and **Tailwind CSS**, supporting multiple users, dark mode, and full localStorage persistence.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [https://your-live-link.netlify.app](https://personal-task-tracker-satyam.netlify.app/)  
+📂 **Source Code**: [https://github.com/your-username/Personal-Task-Tracker](https://github.com/Satyamkus/Personal-Task-Tracker)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 **Username-based login**
+- 🧠 **Add / Edit / Delete tasks**
+- 🌓 **Dark Mode / Light Mode** toggle
+- ✅ **Mark tasks as Completed or Pending**
+- 🔍 **Filter tasks**: All | Completed | Pending
+- 🕒 **Task creation timestamp**
+- 💾 **User-specific data in localStorage**
+- 📱 **Fully responsive design (mobile-friendly)**
+- 🎨 Built with **Tailwind CSS** for a modern UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **Routing**: React Router
+- **State Management**: React Context + useState
+- **Persistence**: localStorage (per user)
+
+---
+
+## 🧪 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Satyamkus/Personal-Task-Tracker.git
+cd Personal-Task-Tracker
+
+### 2. Install Dependencies
+  ```bash
+  npm install
+### 3. Run App
+  ```bash
+   npm run dev
+
