@@ -2,8 +2,8 @@
 
 A modern, responsive **task management web app** built with **React** and **Tailwind CSS**, supporting multiple users, dark mode, and full localStorage persistence.
 
-🔗 **Live Demo**: [https://your-live-link.netlify.app](https://personal-task-tracker-satyam.netlify.app/)  
-📂 **Source Code**: [https://github.com/your-username/Personal-Task-Tracker](https://github.com/Satyamkus/Personal-Task-Tracker)
+🔗 **Live Demo**: [https://personal-task-tracker-satyam.netlify.app/](https://personal-task-tracker-satyam.netlify.app/)  
+📂 **Source Code**: [(https://github.com/Satyamkus/Personal-Task-Tracker](https://github.com/Satyamkus/Personal-Task-Tracker)
 
 ---
 
@@ -37,10 +37,12 @@ A modern, responsive **task management web app** built with **React** and **Tail
 ```bash
 git clone https://github.com/Satyamkus/Personal-Task-Tracker.git
 cd Personal-Task-Tracker
+```
 
 ### 2. Install Dependencies
   ```bash
   npm install
+```
 ### 3. Run App
   ```bash
    npm run dev
