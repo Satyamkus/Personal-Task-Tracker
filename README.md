@@ -1,5 +1,5 @@
 #  Personal Task Tracker
-![LIVE DEMO] ( personal-task-tracker-satyam.netlify.app)
+![LIVE DEMO] (https://personal-task-tracker-satyam.netlify.app/)
 
 A modern, responsive **task management web app** built with **React** and **Tailwind CSS**, supporting multiple users, dark mode, and full localStorage persistence.
 
