@@ -1,38 +1,12 @@
-#  Personal Task Tracker
-![LIVE DEMO] (https://personal-task-tracker-satyam.netlify.app/)
+# React + Vite
 
-A modern, responsive **task management web app** built with **React** and **Tailwind CSS**, supporting multiple users, dark mode, and full localStorage persistence.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🔐 **Login system** (username-based, stored locally)
-- 🧠 **Add / Edit / Delete tasks**
-- 🌓 **Dark Mode / Light Mode** toggle
-- ✅ **Mark tasks as Completed or Pending**
-- 🔍 **Filter tasks** by status (All / Completed / Pending)
-- 🕒 **Track creation time** for each task
-- 💾 **User-specific task storage** in localStorage
-- 📱 **Fully responsive design** with Tailwind CSS
-- 🎨 Clean, modern, accessible UI
+## Expanding the ESLint configuration
 
----
-
---- 🛠️ Tech Stack
-
-- **Frontend**: React, Tailwind CSS
-- **State Management**: React Hooks + Context API
-- **Persistence**: `localStorage` (per user)
-
-
- ## Setup Instructions 
-1. Clone the repository   
-2. Run `npm install`   
-3. Run `npm run dev`
-
-Author- Satyam Kushwaha
-
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
